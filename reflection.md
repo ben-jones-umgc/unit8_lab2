@@ -1,9 +1,10 @@
 # Reflection – AI Number Program Lab
 
-## GitHub Repo
+##  Student Name:
+(Enter your name here)
 
-URL for your Unit 8 Lab 2 GitHub repo:
-
+##  GitHub Repository Link:
+(Insert your repository URL here)
 
 ## Iteration 1
 
