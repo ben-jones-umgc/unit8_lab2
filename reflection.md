@@ -1,24 +1,24 @@
 # Reflection – AI Number Program Lab
 
 ##  Student Name:
-(Enter your name here)
+Benjamin Jones
 
 ##  GitHub Repository Link:
-(Insert your repository URL here)
+https://github.com/ben-jones-umgc?tab=repositories
 
 ## Iteration 1
 
 What the AI code does:
--
+- qwen3.8-flash-next-iq3_s
 
 Tests passed/failed:
--
+- All tests passed
 
 What surprised you:
--
+- It found the tests' expected outputs and ensured it would work first try
 
 Commit message:
--
+- Iteration 1: AI-generated implementation
 
 ---
 
