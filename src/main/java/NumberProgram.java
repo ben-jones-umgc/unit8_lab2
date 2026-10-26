@@ -8,20 +8,7 @@ public class NumberProgram {
         System.out.println("Result: " + result);
     }
 
-    /**
-     * Returns the largest value in the array.
-     * Returns Integer.MIN_VALUE if the array is null or empty.
-     */
     public static int findResult(int[] values) {
-        int max = Integer.MIN_VALUE;
-        if (values == null) {
-            return max;
-        }
-        for (int value : values) {
-            if (value > max) {
-                max = value;
-            }
-        }
-        return max;
+        return 0;
     }
 }
