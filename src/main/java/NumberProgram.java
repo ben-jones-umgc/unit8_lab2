@@ -13,10 +13,10 @@ public class NumberProgram {
      * Returns Integer.MIN_VALUE if the array is null or empty.
      */
     public static int findResult(int[] values) {
-        int max = Integer.MIN_VALUE;
-        if (values == null) {
-            return max;
+        if (values == null || values.length == 0) {
+            return Integer.MIN_VALUE;
         }
+        int max = values[0];
         for (int value : values) {
             if (value > max) {
                 max = value;

@@ -41,21 +41,24 @@ Commit message:
 ## Iteration 3
 
 Final behavior:
--
+- findResult returns the largest value in the array. If the array is empty (or null), it returns Integer.MIN_VALUE. Running main prints "Result: 9" for {3, 7, 2, 9, 4}.
 
 What was fixed:
--
+- The empty-array case is now handled by an explicit check at the top of the method instead of only working because max started at Integer.MIN_VALUE. The loop now starts from values[0], so it's clear the method is finding the largest real value in the array. All four tests still pass.
 
 What you learned:
--
+- Code can pass the tests and still not make its intent obvious. An explicit check for the edge case makes the expected behavior clear to anyone reading the code, not just to the tests.
 
 Commit message:
--
+- Iteration 3: final version passing all tests
 
 ---
 
 ## Final Reflection
 
 - How did AI responses change across prompts?
+  - Because the AI read the test file in Iteration 1, its first answer already matched every test, including the empty-array case. The later prompts didn't change how the method behaved. They only made the code clearer, especially Iteration 3, which made the empty-array check explicit.
 - How did testing affect your changes?
+  - The tests defined what "correct" meant, such as returning Integer.MIN_VALUE for an empty array. That guided the first implementation, and the tests also confirmed that the Iteration 3 refactor didn't break anything.
 - What did version control help you understand?
+  - Committing each iteration separately keeps a record of how the code changed from the starter stub to the final version. Each change can be compared or undone. It also showed that Iteration 2 changed only the reflection, not the code.
